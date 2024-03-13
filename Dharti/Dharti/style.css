@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* header Starts */
+.header{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    min-width: 99%;
+    margin: 10px;
+}
+
+.head_right{
+    display: flex;
+    align-items: center;
+}
+
+.head_right h4{
+    padding: 10px;
+    color: rgb(163, 163, 163);
+}
+
+/* header Ends */
+
+/* Middle Starts */
+.middle_top{
+    background-image: url(images/villa-g14e80aba1_1920.jpg);
+    background-repeat: no-repeat;
+    min-width: 60%;
+    background-size: 100% 100%;
+    padding: 20%;
+}
+
+.middle_top h1{
+    color: white;
+    font-size: 19mm;
+    margin-top: -10%;
+}
+.middle_top p{
+    color: white;
+    font-size: large;
+}
+.middle_top button{
+    margin-top: 10%;
+    border: none;
+    text-decoration: none;
+    font-size: large;
+    padding: 10px;
+    border-radius: 19px;
+    background-color: hsl(15deg 100% 35%)R;
+    color: white;
+}
+
+.middle_info {
+    text-align: justify;
+    margin: 10%;
+    margin-right: 48%;
+    padding: 10px;
+}
+.middle_info h1{
+    display: contents;
+    font-size: xxx-large;
+}
+.middle_info p{
+    margin-top: 7%;
+    color: gray;
+    text-align: justify;
+}
+
+.middle_pic{
+    background-color: white;
+    box-shadow: 15px 15px 0px -5px hsl(15deg 100% 35%);
+    display: flex;
+    flex-direction: row-reverse;
+    margin: -45% 13% 0% 55%;
+    min-width: 30%;
+    padding: 20px;
+}
+
+.middle_pic img{
+    width: 90%;
+    border-radius: 50%;
+    margin: -5% -5% -7% 0%;
+}
+.middle_option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+    font-size: x-large;;
+}
+.middle_option h2{
+    display: contents;
+}
+.middle_who{
+    min-width: 100%
+}
+/* Middle Ends */
+
+.mid{
+    background-image: url(images/lycs-architecture-kUdbEEMcRwE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+    padding: 10%;
+    min-width: 80%;
+}
+.mid p{
+    color: white;
+    text-align: center;
+}
+
+.mid img{
+    width: 65%;
+    height: 290px;
+    margin: -23% 0% 5% 19%;
+
+}
+
+.mid_value{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.mid_value h2{
+    display: contents;
+    font-size: 50px;
+}
+
+.mid_icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.mid_icon .material-icons{
+    color: hsl(15deg 100% 35%);
+    font-size: 50px;
+    line-height: 2;
+}
+.mid_icon p{
+    color: gray;
+    margin: 4px;
+    width: 72%;
+    text-align: center;
+
+}
+.mid_icon h4{
+    font-size: x-large;
+}
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% 16% 5% 16%;
+}
+
+/* BLOGS StartS */
+.blog{
+    background-image: url(images/keith-polischuk-15RpelTxDls-unsplash.jpg);
+    background-repeat: no-repeat;
+    min-width: 60%;
+    background-size: 100% 100%;
+    padding: 20%;
+}
+.blog h2{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: xxx-large;
+    margin-top: -20%;
+    filter: grayscale(50%);
+}
+
+.polaroid {
+    width: 280px;
+    box-shadow: 15px 15px 0px -5px hsl(15deg 100% 35%);
+    text-align: center;
+  }
+  .container{
+    background-color: white;
+
+  }
+  .container h4{
+    text-align: justify;
+    padding: 10px;
+  }
+  .container p{
+    color: gray;
+    text-align: initial;
+    padding: 10px;
+  }
+
+/* BLOGS EndS */
